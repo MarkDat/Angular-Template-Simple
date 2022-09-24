@@ -1,0 +1,22 @@
+<div class="user-panel">
+	<div id="u-info" class="user-info" (click)="optionVisible = !optionVisible">
+		<div class="image-container">
+			<div class="user-image"></div>
+		</div>
+		<div class="user-name">{{user.name}}</div>
+	</div>
+	<!-- <div id="user-option" class="user-action">
+		<dx-button [type]="'normal'" [icon]="'overflow'" (onClick)="optionVisible = !optionVisible">
+		</dx-button>
+	</div> -->
+</div>
+
+<dx-popover target="#u-info" position="bottom" [width]="150" [(visible)]="optionVisible">
+	<div *dxTemplate="let data = model; of: 'content'">
+		<div class="options-container">
+			<div class="options-container__action">
+				<a href="#" target="_blank" class="options-item"><span>Đăng xuất</span></a>
+			</div>
+		</div>
+	</div>
+</dx-popover>

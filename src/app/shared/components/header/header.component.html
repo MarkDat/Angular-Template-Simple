@@ -1,0 +1,13 @@
+<header>
+	<dx-toolbar class="header-toolbar">
+		<dxi-item *ngIf="menuToggleEnabled" location="before" widget="dxButton" cssClass="menu-button" [options]="{
+          icon: 'menu',
+          stylingMode: 'text',
+          onClick: toggleMenu
+        }">
+		</dxi-item>
+		<dxi-item location="after">
+			<app-user-panel [user]="user" [menuItems]="userMenuItems" menuMode="list"></app-user-panel>
+		</dxi-item>
+	</dx-toolbar>
+</header>

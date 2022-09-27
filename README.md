@@ -1,5 +1,5 @@
 # Demo
-![alt text](https://bit.ly/3Eds3qH)
+![alt text](./demo.png)
 
 # Motel Manager
 

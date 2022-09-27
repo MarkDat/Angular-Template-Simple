@@ -1,3 +1,6 @@
+# Demo
+![alt text](https://bit.ly/3Eds3qH)
+
 # Motel Manager
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.10.

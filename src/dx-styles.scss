@@ -56,12 +56,16 @@ html, body {
     }
   }
 
-  .dx-flex {
-    display: flex;
+  .d-flex {
+    display: flex !important;
   }
 
   .justify-content-between {
-    justify-content: space-between;
+    justify-content: space-between !important;
+  }
+
+  .justify-content-around {
+    justify-content: space-around !important;
   }
   
   $side-panel-min-width: 33px;

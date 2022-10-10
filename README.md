@@ -1,6 +1,7 @@
 # Angular template simple
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.10.
+Simple Angular project with Devextreme
+Framework: Devextreme
 
 ## Development server
 
